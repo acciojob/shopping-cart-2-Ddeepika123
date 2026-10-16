@@ -7,6 +7,22 @@
 </head>
 
 <body>
+	<h1>Shopping Cart</h1>
+	<input type="text" id="item-name-input" placeholder="Enter item name" > 
+	<input type="number" id="item-price-input" placeholder="Enter item price" min="0.01" step="any" >
+	<button id="add-btn">Add</button>
+	<table border="1"> <thead>
+		<tr> 
+			<th>Item Name</th>
+			<th>Item Price</th>
+		</tr> 
+	</thead>
+		<tbody id="cart-items"> 
+			<tr> 
+				<td colspan="2" data-ns-test="grandTotal">0</td>
+			</tr>
+		</tbody>
+	</table>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
